@@ -41,8 +41,8 @@ public class InputIMC extends AppCompatActivity implements View.OnClickListener 
         layte = findViewById(R.id.fundin);
 
         toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("feijão com banana");
-        toolbar.setSubtitle("aaaaaaaaa");
+        toolbar.setTitle("Calculadora de IMC");
+        toolbar.setSubtitle("Resultado rápido e fácil");
         // colocando "ações" na toolbar
         setSupportActionBar(toolbar);
         //
@@ -51,14 +51,14 @@ public class InputIMC extends AppCompatActivity implements View.OnClickListener 
 
 
         Intent i = getIntent();
-        nome = "(nome vai aqui)";
+        nome = "";
         Bundle caxa;
         /* Maneira alternativa, passando direto
         String nome = (String) i.getExtras().get("nome");*/
         if (i != null) {
             caxa = i.getExtras();
             if (caxa != null) {
-                nome = caxa.getString("nome");
+                nome = caxa.getString("nome", "(nome vai aqui)");
             }
         }
         Log.i("Chave", "Nome obtido: "+nome);
@@ -110,11 +110,12 @@ public class InputIMC extends AppCompatActivity implements View.OnClickListener 
             i.putExtras(caixa);
             startActivity(i);
         } else {
-            Snackbar snackbar = Snackbar.make(layte, "Digita diretiro, porra!", Snackbar.LENGTH_INDEFINED);
-            snackbar.setAction("Fechar", new View.onClickListener(){
-               public void OnClick(View v){
-                   snackbar.dismiss();
-               }
+            Snackbar snackbar = Snackbar.make(layte, "Digite seus dados corretamente, por favor.", Snackbar.LENGTH_INDEFINITE);
+            snackbar.setAction("Fechar", new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    snackbar.dismiss();
+                }
             });
             snackbar.show();
         }
