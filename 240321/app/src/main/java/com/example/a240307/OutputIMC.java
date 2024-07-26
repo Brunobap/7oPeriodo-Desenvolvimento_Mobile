@@ -22,7 +22,7 @@ public class OutputIMC extends AppCompatActivity implements View.OnClickListener
 
         Intent i = this.getIntent();
         float imc = 0;
-        String nome = "(nome vai aqui)";
+        String nome = "";
         if (i != null) {
             Bundle caxa = i.getExtras();
             if (caxa != null) {

@@ -19,7 +19,7 @@ public class SplashFinale extends AppCompatActivity implements Runnable {
         setContentView(R.layout.activity_splash_finale);
 
         shared = getSharedPreferences("acesso1",0);
-        String nome = shared.getString("nome", "Fulanin");
+        String nome = shared.getString("nome", "(nome vai aqui)");
 
         handler = new Handler();
         handler.postDelayed(this,5000);

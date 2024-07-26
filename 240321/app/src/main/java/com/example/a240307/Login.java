@@ -109,6 +109,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         startActivity(i);
 
         // Mensagem de bolhinha na tela
-        Toast.makeText(this, "aaaaaaaaaaaaaaaa", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Logado com sucesso!", Toast.LENGTH_LONG).show();
     }
 }

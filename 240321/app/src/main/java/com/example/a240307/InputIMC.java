@@ -110,11 +110,13 @@ public class InputIMC extends AppCompatActivity implements View.OnClickListener 
             i.putExtras(caixa);
             startActivity(i);
         } else {
-            Snackbar snackbar = Snackbar.make(layte, "Digita diretiro, porra!", Snackbar.LENGTH_INDEFINED);
-            snackbar.setAction("Fechar", new View.onClickListener(){
-               public void OnClick(View v){
-                   snackbar.dismiss();
-               }
+            Snackbar snackbar = Snackbar.make(layte, "Digite sua altura, por favor.", Snackbar.LENGTH_INDEFINITE);
+            //snackbar.setAction("Fechar", dismiss(snackbar));
+            snackbar.setAction("Fechar", new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    snackbar.dismiss();
+                }
             });
             snackbar.show();
         }
