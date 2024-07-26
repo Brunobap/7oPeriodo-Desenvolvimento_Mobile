@@ -80,7 +80,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     public void onSaveInstanceState(Bundle b) {
-        String nome = "aaaaaaaaaaaaaaaaaa";
+        String nome = "(nome vai aqui)";
         b.putString("nome",nome);
         super.onSaveInstanceState(b);
     }
@@ -109,6 +109,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         startActivity(i);
 
         // Mensagem de bolhinha na tela
-        Toast.makeText(this, "Logado com sucesso!", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Logado com sucesso", Toast.LENGTH_LONG).show();
     }
 }

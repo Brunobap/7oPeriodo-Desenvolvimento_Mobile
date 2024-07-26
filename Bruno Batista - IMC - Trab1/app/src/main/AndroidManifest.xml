@@ -25,8 +25,8 @@
         <activity
             android:name=".Login"
             android:exported="false"
-            android:screenOrientation="landscape"
             android:configChanges="orientation"/>
+        <!-- android:screenOrientation="landscape", essa linha tava dentro da activity de cima -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
