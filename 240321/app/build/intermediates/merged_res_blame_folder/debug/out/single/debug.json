@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/layout_activity_input_imc.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/layout/activity_input_imc.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-xxhdpi_abraco.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-xxhdpi/abraco.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-mdpi_mais_casinha.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-mdpi/mais_casinha.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-hdpi_remedio.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-hdpi/remedio.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-mdpi_rotacao_3d.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-mdpi/rotacao_3d.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-anydpi_mais_casinha.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-anydpi/mais_casinha.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/layout_activity_output_imc.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/layout/activity_output_imc.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-anydpi_abraco.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-anydpi/abraco.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-hdpi_mais_casinha.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-hdpi/mais_casinha.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-xxhdpi_rotacao_3d.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-xxhdpi/rotacao_3d.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/menu_menu.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/menu/menu.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-anydpi_remedio.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-anydpi/remedio.xml"
+    },
+    {
+        "merged": "com.example.a240307.app-merged_res-31:/layout_activity_input_imc.xml.flat",
+        "source": "com.example.a240307.app-main-33:/layout/activity_input_imc.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-xxhdpi_mais_casinha.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-xxhdpi/mais_casinha.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable_tabela_imc.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable/tabela_imc.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-xhdpi_mais_casinha.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-xhdpi/mais_casinha.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/layout_activity_splash_finale.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/layout/activity_splash_finale.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-hdpi_rotacao_3d.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-hdpi/rotacao_3d.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-xxhdpi_remedio.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-xxhdpi/remedio.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-mdpi_abraco.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-mdpi/abraco.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/layout_activity_login.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-hdpi_abraco.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-hdpi/abraco.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-xhdpi_rotacao_3d.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-xhdpi/rotacao_3d.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-xhdpi_abraco.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-xhdpi/abraco.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-xhdpi_remedio.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-xhdpi/remedio.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable_punisher.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable/punisher.png"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-anydpi_rotacao_3d.xml.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-anydpi/rotacao_3d.xml"
+    },
+    {
+        "merged": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-merged_res-31:/drawable-mdpi_remedio.png.flat",
+        "source": "/home/brunobap/.gradle/daemon/8.2/com.example.a240307.app-main-33:/drawable-mdpi/remedio.png"
+    }
+]
