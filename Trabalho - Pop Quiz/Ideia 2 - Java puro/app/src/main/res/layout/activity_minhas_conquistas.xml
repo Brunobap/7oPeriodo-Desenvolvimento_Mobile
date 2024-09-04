@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- Título PopQuiz -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PopQuiz"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botão Minhas Conquistas -->
+    <Button
+        android:id="@+id/conquistasButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[Minhas Conquistas]"
+        android:backgroundTint="@color/red"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Imagem de Perfil Circular -->
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_user"
+        app:layout_constraintTop_toBottomOf="@id/conquistasButton"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="22dp"/>
+
+    <!-- Nome e Nível do Usuário -->
+    <TextView
+        android:id="@+id/userNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fulano da Silva"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/profileImageView"
+        app:layout_constraintStart_toEndOf="@id/profileImageView"
+        android:layout_marginStart="12dp"/>
+
+    <TextView
+        android:id="@+id/userXpLevelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30 XP - Nível geral: 1"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/userNameTextView"
+        app:layout_constraintStart_toStartOf="@id/userNameTextView"
+        android:layout_marginTop="15dp"/>
+
+    <!-- Título Troféus -->
+    <TextView
+        android:id="@+id/trofeusTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Troféus"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/profileImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"/>
+
+
+    <TextView
+        android:id="@+id/trofeusListTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="11dp"
+        android:text="Matemática - Nível 2 - Total de perguntas[10] — Total de acertos[9]"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/trofeusTitleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"/>
+
+
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/titulosTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Títulos"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/trofeusListTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"/>
+
+
+    <!-- Layout para os Títulos -->
+    <GridLayout
+        android:id="@+id/titulosGridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="2"
+        app:layout_constraintTop_toBottomOf="@id/titulosTitleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp">
+
+        <!-- Título 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/circular_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mestre do Quiz"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginTop="1dp" />
+        </LinearLayout>
+
+        <!-- Título 2 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/circular_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guru das Respostas"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginTop="1dp" />
+        </LinearLayout>
+
+        <!-- Título 3 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/circular_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lenda do Quiz"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginTop="1dp" />
+        </LinearLayout>
+
+        <!-- Título 4 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/circular_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desafiante Supremo"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginTop="1dp" />
+        </LinearLayout>
+
+        <!-- Título 5 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/circular_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mente Brilhante"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginTop="1dp" />
+        </LinearLayout>
+
+        <!-- Título 6 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/circular_background" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sabichão"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginTop="1dp" />
+        </LinearLayout>
+
+    </GridLayout>
+
+    <!-- Botão Voltar ao Menu Principal -->
+    <Button
+        android:id="@+id/voltarButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="[Voltar ao Menu Principal]"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/titulosGridLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

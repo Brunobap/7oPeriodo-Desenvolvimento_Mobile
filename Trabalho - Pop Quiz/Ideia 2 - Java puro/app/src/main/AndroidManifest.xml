@@ -10,10 +10,25 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PopQuiz"
+        android:theme="@style/Theme.ProjetoPopQuiz"
         tools:targetApi="31">
         <activity
+            android:name=".MinhasConquistas"
+            android:exported="false" />
+        <activity
+            android:name=".TelaCategorias"
+            android:exported="false" />
+        <activity
+            android:name=".TelaPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".FormCadastro"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FormLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

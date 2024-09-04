@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Pop Quiz</string>
+    <string name="app_name">Projeto PopQuiz</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="title_cadastro">Cadastre-se</string>
+    <string name="text_voltar">[Voltar ao Menu Principal]</string>
 </resources>
