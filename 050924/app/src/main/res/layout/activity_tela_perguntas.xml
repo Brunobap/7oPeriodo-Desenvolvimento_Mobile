@@ -1,0 +1,150 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/lest_go"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/lest_go"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quanto é 12 + 8?"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/lest_go"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Questões: 1/10:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/questionTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"/>
+
+
+    <Button
+        android:id="@+id/textButton1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="[x]20"
+        android:textSize="25sp"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/textQuestion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textButton2"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <Button
+        android:id="@+id/textButton2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="[ ]14"
+        android:textSize="25sp"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/textQuestion"
+        app:layout_constraintStart_toEndOf="@+id/textButton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <Button
+        android:id="@+id/textButton3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="[ ]13"
+        android:textSize="25sp"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/textButton1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textButton4"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <Button
+        android:id="@+id/textButton4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="[ ]19"
+        android:textSize="25sp"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/textButton2"
+        app:layout_constraintStart_toEndOf="@+id/textButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <ImageView
+        android:id="@+id/textRelogio"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_relogio"
+        app:layout_constraintTop_toBottomOf="@id/textButton3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="150dp"/>
+
+
+    <TextView
+        android:id="@+id/textAcertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="16dp"
+        android:text="Acertos []"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@id/textRelogio"
+        app:layout_constraintTop_toTopOf="@id/textRelogio" />
+
+    <TextView
+        android:id="@+id/textErro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="4dp"
+        android:text="Erros []"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@id/textRelogio"
+        app:layout_constraintTop_toBottomOf="@id/textAcertos" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
