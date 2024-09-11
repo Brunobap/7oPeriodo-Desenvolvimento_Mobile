@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".TelaPrincipal">
+    tools:context="com.example.TelaPrincipal">
 
     <View
         android:id="@+id/containerUser"
@@ -77,48 +77,40 @@
         />
 
     <Button
-        android:id="@+id/textNovaPartida"
+        android:id="@+id/btnNovaPartida"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/red"
+        android:padding="20dp"
         android:text="Jogar Nova Partida"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textAllCaps="false"
-        android:backgroundTint="@color/red"
-        android:padding="20dp"
-        android:layout_margin="20dp"
-        app:layout_constraintTop_toBottomOf="@id/iconeTitle"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iconeTitle" />
 
     <Button
-        android:id="@+id/textVerConquistas"
+        android:id="@+id/btnVerConquistas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="[Ver Conquistas]"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/red"
+        android:padding="20dp"
+        android:text="Ver Conquistas"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textAllCaps="false"
-        android:backgroundTint="@color/red"
-        android:padding="20dp"
-        android:layout_margin="20dp"
-        app:layout_constraintTop_toBottomOf="@id/textNovaPartida"
-        />
-
-    <TextView
-        android:id="@+id/text_tela_cadastro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_voltar"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:layout_marginTop="1dp"
-        android:layout_marginBottom="25dp"
-        app:layout_constraintTop_toBottomOf="@id/starthere"
-        app:layout_constraintStart_toStartOf="@id/textVerConquistas"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnNovaPartida" />
 
     <ImageView
         android:id="@+id/starthere"
@@ -127,7 +119,7 @@
         android:src="@drawable/starhere"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textVerConquistas"
+        app:layout_constraintTop_toBottomOf="@id/btnVerConquistas"
         />
 
 

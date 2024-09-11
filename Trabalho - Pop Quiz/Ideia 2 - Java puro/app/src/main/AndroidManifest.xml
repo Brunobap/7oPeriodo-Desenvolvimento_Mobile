@@ -13,29 +13,28 @@
         android:theme="@style/Theme.ProjetoPopQuiz"
         tools:targetApi="31">
         <activity
-            android:name=".MinhasConquistas"
-            android:exported="false" />
-        <activity
-            android:name=".TelaCategorias"
-            android:exported="false" />
-        <activity
-            android:name=".TelaPrincipal"
-            android:exported="false" />
-        <activity
-            android:name=".FormCadastro"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".FormLogin"
+            android:name="com.example.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.MinhasConquistas"
+            android:exported="true" />
+        <activity
+            android:name="com.example.TelaCategorias"
+            android:exported="true" />
+        <activity
+            android:name="com.example.TelaPrincipal"
+            android:exported="true" />
+        <activity
+            android:name="com.example.FormCadastro"
+            android:exported="true" />
+        <activity
+            android:name="com.example.FormLogin"
+            android:exported="true" />
     </application>
 
 </manifest>

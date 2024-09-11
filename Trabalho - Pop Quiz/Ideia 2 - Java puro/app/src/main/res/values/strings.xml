@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Projeto PopQuiz</string>
     <string name="entrar">Entrar</string>
-    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="text_cadastro">Não tem uma conta?\nCrie uma conta clicando aqui</string>
+    <string name="text_login">Já tem uma conta?\nCrie uma conta clicando aqui</string>
     <string name="title_cadastro">Cadastre-se</string>
     <string name="text_voltar">[Voltar ao Menu Principal]</string>
+    <string name="title_activity_tela_pergunta">TelaPergunta</string>
 </resources>
