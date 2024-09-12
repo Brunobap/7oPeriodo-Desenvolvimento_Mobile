@@ -64,8 +64,9 @@ public class FormCadastro extends AppCompatActivity {
                 } else {
                     // Senhas iguais, pode avanÃ§ar para a prÃ³xima tela
                     try {
-                        Class.forName("com.mysql.cj.jdbc.Driver");
-                        Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/popQuiz","root","R00t%P4$$");
+                        Connection con= DriverManager.getConnection(
+                                "jdbc:mysql://popquiz.c98wqcaqenn5.sa-east-1.rds.amazonaws.com:3306/popQuiz",
+                                "admin","popQuiz00");
                         System.out.println("INSERINDO DADOS");
                         PreparedStatement ptmt=con.prepareStatement("INSERT INTO usuarios(email,senha) VALUES(?,?)");
                         ptmt.setString(1, txtEmail.getText().toString());
